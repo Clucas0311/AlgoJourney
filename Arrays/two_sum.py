@@ -12,6 +12,10 @@ to check to see if the key which is the target - current_elm has been seen in th
 if it has return the an array with the needed_value and the i, otherwise the dictionary 
 will store the current_elm as a key and the i as its value for look-up
 
+Time Complexity:
+O(n)
+Iterate through the list containing n elements only once. Look up is O(1)
+Space Complexity O(N) ---> n being the elements stored in the hash_map
 Example 1:
 
 Input: nums = [2,7,11,15], target = 9
