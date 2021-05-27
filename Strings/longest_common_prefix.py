@@ -9,6 +9,10 @@ then check to see if each character matches the character in the first string
 if the string doesn't match return the prefix created otherwise add to the prefix 
 
 Only add to prefix if each character matches the first character  of each element
+
+Time Complexity O(S) ---> Where S is the sum of all the characters
+O(S * m) for even lengths
+Space O(1)
 """
 
 class Solution:
