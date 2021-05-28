@@ -36,6 +36,8 @@ Example 4:
 Input: s = ""
 Output: 0
 """
+
+
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         new_set = set()
