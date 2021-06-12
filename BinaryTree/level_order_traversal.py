@@ -16,6 +16,9 @@ Do these steps until all the children removed from the queue and into levels
 push each level into the results container 
 return result
 
+Time = O(N) where is N is the number of nodes we are traversing 
+Space is O(N) where N is the space for queue
+
 Input: root = [3,9,20,null,null,15,7]
 Output: [[3],[9,20],[15,7]]
 Example 2:
