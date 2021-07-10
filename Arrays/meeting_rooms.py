@@ -10,6 +10,8 @@ start, end
 if there is a situation where last_end <= start then keep traversing 
 but if last_end > start return ---> return false
 update last_end to equal end and compare during each traversal
+Time Complexity O(nlog(N)) --> sorting
+Space: O(1)
 
 Example 1:
 
