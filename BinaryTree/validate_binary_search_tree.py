@@ -17,6 +17,10 @@ and it can grow towards positive infinity
 So the base case will be if the node is None return true b/c BST can be none and still be BST
 not if the node.val is not less than the parent node on the left and not greater than the parent node on the right then it isn't a BST
 
+Traverse through every node in the binary tree when we reach to a leafnode/ node with no children we are going to return true, make the binary search tree valid
+If we are not at a leaf node we need to recursivly look through each subtree and see if the root is less than the right node and greater than the left 
+So validate the left and right subtree recursively
+Keep track of the min and max values of the tree 
 Recursive CASE:
 call valid if valid is on the left create the boundaries same for the right
 
